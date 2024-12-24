@@ -1,0 +1,258 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Header Styling */
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: #004080; /* Professional blue tone */
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.logo img {
+    max-height: 50px;
+}
+
+/* Navigation Styling */
+.main-nav {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    gap: 10px;
+    background-color: #004080;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+.main-nav ul {
+    list-style: none;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav ul li a:hover {
+    background-color: #ffd700;
+    color: #004080; /* Gold hover effect */
+}
+
+
+/* Navigation Toggle Button */
+.nav-toggle {
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Carousel Section */
+.hero-carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Each item takes 100% width of the parent */
+}
+
+.carousel-item {
+    flex: 1 0 100%; /* Each item takes full width */
+    position: relative;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 20px; /* Align to the left */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    max-width: 70%; /* Prevent text overflow */
+}
+
+.carousel-caption h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+}
+
+
+
+
+footer {
+    background-color: #004080; /* Professional blue tone */
+    color: white;
+    padding: 20px 10px;
+}
+.footer-mobile{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid white;
+}
+.footer-logo img {
+    max-height: 50px;
+}
+
+/* Footer Navigation */
+.footer-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+
+.footer-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-nav ul li a:hover {
+    color: #ffd700; /* Gold hover effect */
+}
+
+/* Footer Contact */
+.footer-contact p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Footer Social Links */
+.footer-social{
+    display:flex;
+    flex-direction: column;
+}
+.footer-social a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #ffd700; /* Gold hover effect */
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 12px;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/* Media Queries for Larger Screens */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .main-nav {
+        display: flex; /* Show navigation */
+        flex-direction: column;
+        position: static;
+        gap: 20px;
+    }
+    .main-nav ul{
+        display: flex;
+        justify-content: center;
+        margin-block: 0;
+        padding: 0;
+    }
+    .main-nav ul li{
+        align-self: center;
+        margin: 0 4px;
+        padding-right: 0;
+
+    }
+
+    .nav-toggle {
+        display: none; /* Hide toggle button */
+    }
+
+    .hero-carousel {
+        height: 800px; /* Adjust for larger screens */
+    }
+    .carousel-caption {
+        left: 50px; /* Further from the edge on larger screens */
+        max-width: 40%; /* Narrower for better layout */
+    }
+
+    .carousel-caption h1 {
+        font-size: 36px;
+    }
+
+    .carousel-caption p {
+        font-size: 20px;
+    }
+
+    .footer-nav ul {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    
+    
+    .footer-contact,
+    .footer-social {
+        text-align: left;
+    }
+
+    
+}
