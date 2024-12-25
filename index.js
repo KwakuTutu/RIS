@@ -29,17 +29,3 @@ function showNextSlide() {
 
 // Auto-slide every 5 seconds
 setInterval(showNextSlide, 5000);
-
-// Get the height of the header
-const header = document.querySelector('header');
-const hero = document.querySelector('.hero-carousel');
-
-// Adjust hero section margin dynamically
-function adjustHeroMargin() {
-    const headerHeight = header.offsetHeight;
-    hero.style.paddingTop = `${headerHeight}px`;
-}
-
-// Run on load and resize
-adjustHeroMargin();
-window.addEventListener('resize', adjustHeroMargin);
