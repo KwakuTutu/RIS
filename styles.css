@@ -168,7 +168,7 @@ body {
 footer {
     background-color: #004080; 
     color: white;
-    padding: 40px 0;
+    padding: 40px 16px;
 }
 .footer-mobile{
     flex-direction: column;
