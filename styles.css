@@ -17,7 +17,7 @@ body {
     width: 100%;
     position: fixed;
     z-index: 2000;
-    background-color: #004080; /* Professional blue tone */
+    background-color: #004080; 
     color: white;
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -39,7 +39,7 @@ body {
 
 /* Navigation Styling */
 .main-nav {
-    display: none; /* Hidden by default */
+    display: none; 
     flex-direction: column;
     gap: 10px;
     background-color: #004080;
@@ -67,7 +67,7 @@ body {
 
 .main-nav ul li a:hover {
     background-color: #ffd700;
-    color: #004080; /* Gold hover effect */
+    color: #004080; 
 }
 
 
@@ -92,14 +92,14 @@ body {
 .carousel {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 100%; /* Each item takes 100% width of the parent */
+    width: 100%; 
 }
 
 .carousel-item {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 0 100%; /* Each item takes full width */
+    flex: 1 0 100%; 
     position: relative;
 }
 
@@ -112,11 +112,11 @@ body {
 .carousel-caption {
     position: absolute;
     text-align: center;
-    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    background: rgba(0, 0, 0, 0.6); 
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
-    max-width: 70%; /* Prevent text overflow */
+    max-width: 70%; 
 }
 
 .carousel-caption h1 {
@@ -164,9 +164,9 @@ body {
 
 
 
-
+/*Footer styling*/
 footer {
-    background-color: #004080; /* Professional blue tone */
+    background-color: #004080; 
     color: white;
     padding: 20px 10px;
 }
@@ -177,8 +177,9 @@ footer {
     padding-bottom: 12px;
     border-bottom: 1px solid white;
 }
+
 .footer-logo img {
-    max-height: 50px;
+    max-height: 70px;
 }
 
 /* Footer Navigation */
@@ -198,11 +199,13 @@ footer {
 }
 
 .footer-nav ul li a:hover {
-    color: #ffd700; /* Gold hover effect */
+    color: #ffd700; 
 }
 
 /* Footer Contact */
 .footer-contact p {
+    text-decoration: none;
+    color: white;
     font-size: 14px;
     margin: 5px 0;
 }
@@ -221,7 +224,7 @@ footer {
 }
 
 .footer-social a:hover {
-    color: #ffd700; /* Gold hover effect */
+    color: #ffd700; 
 }
 
 /* Footer Bottom */
@@ -240,7 +243,7 @@ footer {
         text-align: left;
     }
     .main-nav {
-        display: flex; /* Show navigation */
+        display: flex; 
         flex-direction: column;
         position: static;
         gap: 20px;
@@ -259,11 +262,11 @@ footer {
     }
 
     .nav-toggle {
-        display: none; /* Hide toggle button */
+        display: none;
     }
 
     .hero-carousel {
-        height: 700px; /* Adjust for larger screens */
+        height: 700px; 
         padding-top: 0;
     }
     
