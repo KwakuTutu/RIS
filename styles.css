@@ -161,6 +161,215 @@ body {
     background: rgba(0, 0, 0, 0.8);
 }
 
+/* Section Styling */
+.school-intro {
+    padding: 100px 50px;
+    background-color: #fff;
+}
+
+.school-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px
+}
+
+/* Text Styling */
+.school-intro h2 {
+    font-size: 24px;
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 36px;
+}
+.cta-learn{
+    display: inline-block;
+    padding: 16px 24px;
+    color: #f9f9f9;
+    background-color: #004080;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+.cta-learn:hover {
+    background-color: #ffd700;
+    color: #004080; 
+}
+
+/* Image Styling */
+.intro-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    
+}
+
+/* mission and vision section Styling */
+.mission-vision {
+    background-color: rgba(192, 221, 255, 0.3);
+    text-align: center;
+    padding: 100px 50px;
+}
+
+.mission-vision--content {
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.mission-vision h2 {
+    font-size: 24px;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.mission-vision h3 {
+    font-size: 18px;
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+.mission-vision p {
+    font-size: 14px;
+    color: #666;
+}
+
+/*Announcement section styling*/
+
+.announcements {
+    padding: 100px 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.announcements-content {
+    flex-direction: column;
+}
+
+.announcements h2 {
+    font-size: 24px;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+.announcements-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* Announcement Card Styling */
+.announcement-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+}
+
+.announcement-card h3 {
+    font-size: 18px;
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+.announcement-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.announcement-card .btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #004080;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.announcement-card .btn:hover {
+    background-color: #ffd700;
+    color: #004080;
+}
+
+
+/*Quick links styling*/
+.quick-links {
+    padding: 100px 50px;
+    background-color: #fff
+}
+
+.quick-links--content {
+    flex-direction: column;
+    margin: 0 auto;
+} 
+
+.quick-links h2 {
+    font-size: 24px;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+.links-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Link Card Styling */
+.link-card {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.link-card:hover {
+    background-color: rgba(256, 200, 0, 0.8);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.link-card h3 {
+    font-size: 18px;
+    color: #004080;
+    margin-bottom: 5px;
+}
+
+.link-card p {
+    font-size: 14px;
+    color: #666;
+}
+
 
 
 
@@ -282,6 +491,111 @@ footer {
         height: 40px;
     }
 
+    .school-content{
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+        gap: 80px
+    }
+    .school-intro {
+        padding-block: 64px;
+    }
+
+    .intro-text{
+        width: 50%;
+        padding-top: 24px;
+    }
+    .school-intro h2 {
+        font-size: 32px;
+    }
+
+    .tagline {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .intro-image img {
+        max-width: 700px;
+    }
+
+    .mission-vision--content {
+        text-align: center;
+        align-items: flex-start;
+      
+    }
+    .content {
+        width: 60%;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .mission-vision h2 {
+        font-size: 32px;
+    }
+
+    .mission-vision h3 {
+        font-size: 22px;
+    }
+
+    .mission-vision p {
+        font-size: 18px;
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .announcements-content{
+        flex-direction: column;
+    }
+
+    .announcements-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .announcements h2 {
+        font-size: 32px;
+    }
+
+    .announcement-card h3 {
+        font-size: 22px;
+    }
+
+    .announcement-card p {
+        font-size: 18px;
+    }
+
+
+    .quick-links--content {
+        flex-direction: column;
+        margin: 0 auto;
+    } 
+
+    .links-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px;
+    }
+
+    .quick-links h2 {
+        font-size: 32px;
+    }
+
+    .link-card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .link-card h3 {
+        font-size: 20px;
+    }
+
+    .link-card p {
+        font-size: 16px;
+    }
     .footer-nav ul {
         flex-direction: column;
         gap: 12px;
