@@ -341,7 +341,7 @@ body {
     gap: 20px;
 }
 
-/* Link Card Styling */
+/* Quick Link Card Styling */
 .link-card {
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -369,6 +369,278 @@ body {
     font-size: 14px;
     color: #666;
 }
+
+
+
+
+
+/*Contact Page Styling*/
+
+
+.contact-section {
+    padding-block: 100px;
+}
+
+.contact-container {
+    flex-direction: column;
+    gap: 20px;
+}
+.map{
+    width: 100%;
+}
+
+.map iframe {
+    
+    border: none;
+}
+
+/* Contact Details */
+.contact-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-info h3 {
+    font-size: 20px;
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Contact Form */
+.contact-form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    font-size: 20px;
+    color: #004080;
+    margin-bottom: 15px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 14px;
+    color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.submit-btn {
+    padding: 10px 15px;
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .submit-btn:hover {
+    background-color: #ffd700;
+    color: #004080;
+
+
+/*About Us page styling*/
+
+}
+.about-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(256, 200, 0, 0.5);
+    height: 35vh;
+    color: #004080;
+    text-align: center;
+    padding: 80px 20px 0;
+}
+
+.hero-content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+}
+
+.about-history {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+.history-container{
+    flex-direction: column;
+    gap: 80px;
+    
+}
+
+.history-container h2 {
+    color: #004080;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.history-container p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+/* Core Values Section */
+.core-values {
+    padding: 40px 20px;
+    background-color: rgba(192, 221, 255, 0.3);
+    text-align: center;
+}
+
+.core-values-header h2 {
+    font-size: 28px;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+/* Grid Layout for Core Values */
+.core-values-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* Individual Core Value Item */
+.core-value-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.core-value-item:hover {
+    transform: translateY(-5px);
+}
+
+.core-value-item img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.core-value-item h3 {
+    font-size: 18px;
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+.core-value-item p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.leadership-team {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.team-container h2 {
+    color: #004080;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.team-member {
+    
+    padding: 20px;
+    
+    
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    color: #004080;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #555;
+}
+
+.about-cta {
+    padding: 40px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+}
+
+.cta-container h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.cta-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
 
 
 
@@ -596,6 +868,61 @@ footer {
     .link-card p {
         font-size: 16px;
     }
+    .contact-info h3 {
+        font-size: 24px;
+    }
+
+    .contact-form-container .form-title {
+        font-size: 24px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 16px;
+    }
+
+    .contact-form .submit-btn {
+        font-size: 18px;
+    }
+
+    .core-values-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 35px;
+    }
+
+    .core-values {
+        padding: 60px 40px;
+    }
+
+    .core-values-header h2 {
+        font-size: 36px;
+    }
+
+    .core-value-item h3 {
+        font-size: 22px;
+    }
+
+    .core-value-item p {
+        font-size: 18px;
+    }
+
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-member img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .team-member h3 {
+        font-size: 20px;
+    }
+
+    .team-member p {
+        font-size: 16px;
+    }
+    
     .footer-nav ul {
         flex-direction: column;
         gap: 12px;
