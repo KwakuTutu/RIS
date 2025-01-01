@@ -127,39 +127,7 @@ body {
 .carousel-caption p {
     font-size: 16px;
 }
-/* Chevron Controls
-.carousel-control {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    font-size: 18px;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 1000;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-/* Position Controls 
-.carousel-control.left {
-    left: 10px;
-}
-
-.carousel-control.right {
-    right: 10px;
-}
-
-/* Hover Effect
-.carousel-control:hover {
-    background: rgba(0, 0, 0, 0.8);
-} */
 
 
 /* Dots Navigation */
